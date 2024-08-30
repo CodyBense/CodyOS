@@ -172,6 +172,7 @@ in
     # git
     programs.git = {
         enable = true;
+        package = pkgs.git;
         userName = "CodyBense";
         userEmail = "codybense@gmail.com";
         aliases = {
