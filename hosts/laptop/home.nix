@@ -22,17 +22,7 @@ in
         ../../config/waybar.nix
         ../../config/wlogout.nix
 
-        ../../modules/home/git.nix
-        ../../modules/home/kitty.nix
-        ../../modules/home/starship.nix
-        ../../modules/home/zshrc.nix
-        ../../modules/home/firefox.nix
-        ../../modules/home/fzf.nix
-        ../../modules/home/direnv.nix
-        ../../modules/home/lf.nix
-        ../../modules/home/tmux.nix
-        ../../modules/home/hyprlock.nix
-        ../../modules/home/gtk-qt/default.nix
+        ../../modules/home_bundle.nix
     ];
 
     # Place Files Inside Home Directory
@@ -59,25 +49,18 @@ in
     stylix.targets.neovim.enable = false;
     # Scripts
     home.packages = [
-        (import ../../scripts/randomPokemon.nix {inherit pkgs;})
-        (import ../../scripts/start-hyprland.nix {inherit pkgs;})
-        (import ../../scripts/change-wallpaper.nix {inherit pkgs;})
+        (import ../../scripts/emojipicker.nix {inherit pkgs;})
         (import ../../scripts/list-hypr-bindings.nix {inherit pkgs;})
+        (import ../../scripts/randomPokemon.nix {inherit pkgs;})
         (import ../../scripts/rofi-launch.nix {inherit pkgs;})
-        (import ../../scripts/rofi-wifi.nix {inherit pkgs;})
+        (import ../../scripts/start-hyprland.nix {inherit pkgs;})
+        (import ../../scripts/task-waybar.nix {inherit pkgs;})
+        (import ../../scirpts/w2pc.nix {inherit pkgs;})
         (import ../../scripts/wallsetter.nix {
             inherit pkgs;
             inherit username;
         })
-        (import ../../scripts/themechange.nix {
-            inherit pkgs;
-            inherit host;
-            inherit username;
-        })
-        (import ../../scripts/theme-selector.nix {inherit pkgs;})
-        (import ../../scripts/task-waybar.nix {inherit pkgs;})
         (import ../../scripts/web-search.nix {inherit pkgs;})
-        (import ../../scripts/emojipicker.nix {inherit pkgs;})
     ];
 
 # Let Home Manager install and manage itself.
