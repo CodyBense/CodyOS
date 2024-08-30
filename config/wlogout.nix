@@ -89,10 +89,10 @@
                 background-image: image(url("/home/codybense/mysystem/config/wlogout/suspend.png"));
             }
             #shutdown {
-                background-image: image(url("/home/codybense/mysystem/config/wlogout/power.png"));
+                background-image: image(url("/home/codybense/mysystem/config/wlogout/shutdown.png"));
             }
             #reboot {
-                background-image: image(url("/home/codybense/mysystem/config/wlogout/restart.png"));
+                background-image: image(url("/home/codybense/mysystem/config/wlogout/reboot.png"));
             }
             #hibernate {
                 background-image: image(url("/home/codybense/.config/wlogout/icons/hibernate.png"));
