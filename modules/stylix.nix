@@ -20,7 +20,7 @@
             base0E = "d3869b"; # purple
             base0F = "d65d0e"; # brown
         };
-        image = ../../config/wallpapers/gruvbox-rainbow-nix.png;
+        image = ../config/wallpapers/gruvbox-rainbow-nix.png;
         polarity = "dark";
         cursor.package = pkgs.bibata-cursors;
         cursor.name = "Bibata-Modern-Ice";
