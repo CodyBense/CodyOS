@@ -187,7 +187,7 @@ in
     };
 
     # gh
-     porgrams.gh = {
+     programs.gh = {
         enable = true;
         package = pkgs.gh;
         settings = {
