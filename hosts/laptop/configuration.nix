@@ -11,11 +11,11 @@ in
         ./hardware-configuration.nix
         ./users.nix
         ../../modules/intel-drivers.nix
-        ../../modules/nix/code_bundle.nix
-        ../../modules/nix/de_bundle.nix
-        ../../modules/nix/packages.nix
-        ../../modules/nix/docker.nix
-        ../../modules/nix/stylix.nix
+        ../../modules/code_bundle.nix
+        ../../modules/de_bundle.nix
+        ../../modules/packages.nix
+        ../../modules/docker.nix
+        ../../modules/stylix.nix
         ];
 
     drivers.intel.enable = true;
