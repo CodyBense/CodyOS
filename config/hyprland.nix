@@ -40,7 +40,7 @@ with lib;
             ];
 
             input = {
-                kb_layout = ${keyboardLayout};
+                kb_layout = "${keyboardLayout}";
                 kb_model = "";
                 kb_options = "";
                 kb_rules = "";
