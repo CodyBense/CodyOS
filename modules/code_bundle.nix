@@ -12,7 +12,7 @@
     rust_module.enable = lib.mkDefault true;
     node_module.enable = lib.mkDefault true;
 
-    environement.systemPackages = with pkgs; [
+    environment.systemPackages = with pkgs; [
         gcc
     ];
 }
