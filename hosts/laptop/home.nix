@@ -55,7 +55,7 @@ in
         (import ../../scripts/rofi-launch.nix {inherit pkgs;})
         (import ../../scripts/start-hyprland.nix {inherit pkgs;})
         (import ../../scripts/task-waybar.nix {inherit pkgs;})
-        (import ../../scirpts/w2pc.nix {inherit pkgs;})
+        (import ../../scripts/w2pc.nix {inherit pkgs;})
         (import ../../scripts/wallsetter.nix {
             inherit pkgs;
             inherit username;
