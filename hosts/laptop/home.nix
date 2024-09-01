@@ -1,5 +1,5 @@
 # PROGRAMS to get to dotfile configuration control
-{  pkgs,  username, host, inputs, ... }:
+{  pkgs,  username, inputs, ... }:
 let
     inherit (import ./variables/nix) gitUsername gitEmail;
 in

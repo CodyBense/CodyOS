@@ -83,12 +83,12 @@ in
     # lfrc
     home.file = {
         ".config/lf/lfrc" = {
-            source = ../../config/lf/lfrc;
+            source = ../config/lf/lfrc;
         };
     };
     home.file = {
         ".config/lf/icons" = {
-            source = ../../config/lf/icons;
+            source = ../config/lf/icons;
         };
     };
 
