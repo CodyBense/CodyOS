@@ -58,28 +58,28 @@ in
 
 
     # spicetify
-    programs.spicetify =
-    {
-        enable = true;
-        theme = spicePkgs.themes.Onepunch;
-
-        enabledExtensions = with spicePkgs.extensions; [
-            fullAppDisplay
-                keyboardShortcut
-                bookmark
-                loopyLoop
-                popupLyrics
-                shuffle
-                powerBar
-                playlistIcons
-                playlistIntersection
-                skipStats
-                songStats
-                history
-                fullScreen
-                historyShortcut
-        ];
-    };
+    # programs.spicetify =
+    # {
+    #     enable = true;
+    #     theme = spicePkgs.themes.Onepunch;
+    #
+    #     enabledExtensions = with spicePkgs.extensions; [
+    #         fullAppDisplay
+    #             keyboardShortcut
+    #             bookmark
+    #             loopyLoop
+    #             popupLyrics
+    #             shuffle
+    #             powerBar
+    #             playlistIcons
+    #             playlistIntersection
+    #             skipStats
+    #             songStats
+    #             history
+    #             fullScreen
+    #             historyShortcut
+    #     ];
+    # };
     # lfrc
     home.file = {
         ".config/lf/lfrc" = {
