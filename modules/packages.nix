@@ -1,8 +1,8 @@
 { pkgs, ... }:
 let
-    sugar = pkgs.callPackage ../../pkgs/sddm-sugar-dark.nix { };
-    tokyo-night = pkgs.libsForQt5.callPackage ../../pkgs/sddm-tokyo-night.nix { };
-    todo = pkgs.callPackage ../../pkgs/customPkgs/todo_go.nix { };
+    sugar = pkgs.callPackage ../pkgs/sddm-sugar-dark.nix { };
+    tokyo-night = pkgs.libsForQt5.callPackage ../pkgs/sddm-tokyo-night.nix { };
+    # todo = pkgs.callPackage ../../pkgs/customPkgs/todo_go.nix { };
 in
 {
 
